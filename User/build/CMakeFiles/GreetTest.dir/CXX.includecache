@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/headers.hh
+iostream
+-
+string
+-
+
+/cygdrive/e/projects/cpp/toy/User/main.cpp
+headers.hh
+/cygdrive/e/projects/cpp/toy/User/headers.hh
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe   -Wl,--enable-auto-import CMakeFiles/GreetTest.dir/main.cpp.o  -o GreetTest.exe -Wl,--out-implib,libGreetTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -L/cygdrive/e/projects/cpp/toy/User/lib -lGreeter 
